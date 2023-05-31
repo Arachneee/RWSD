@@ -1,4 +1,4 @@
-package chapter2;
+package chapter2.src.main.java;
 
 import java.time.*;
 import java.time.format.DateTimeFormatter;

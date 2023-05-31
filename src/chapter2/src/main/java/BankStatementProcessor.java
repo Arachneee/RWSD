@@ -1,5 +1,6 @@
-package chapter2;
+package chapter2.src.main.java;
 
+import java.time.LocalDate;
 import java.time.Month;
 import java.util.List;
 
@@ -43,5 +44,29 @@ public class BankStatementProcessor
             }
         }
         return total;
+    }
+    public BankTransaction findMaxBankTransaction (final LocalDate from, final LocalDate to)
+    {
+        BankTransaction maxTransaction = null;
+        for(final BankTransaction bankTransaction: bankTransactions.stream().filter(i->(i.getDate().isBefore(to) && i.getDate().isAfter(from))).toList())
+        {
+            if ((maxTransaction == null) || (bankTransaction.getAmount() > maxTransaction.getAmount()))
+            {
+                maxTransaction = bankTransaction;
+            }
+        }
+        return maxTransaction;
+    }
+    public BankTransaction findMinBankTransaction (final LocalDate from, final LocalDate to)
+    {
+        BankTransaction maxTransaction = null;
+        for(final BankTransaction bankTransaction: bankTransactions.stream().filter(i->(i.getDate().isBefore(to) && i.getDate().isAfter(from))).toList())
+        {
+            if ((maxTransaction == null) || (bankTransaction.getAmount() < maxTransaction.getAmount()))
+            {
+                maxTransaction = bankTransaction;
+            }
+        }
+        return maxTransaction;
     }
 }

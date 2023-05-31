@@ -4,12 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="590bcd40-d806-4dea-b247-4b73f85dd2f4" name="Changes" comment="2-8">
-      <change afterPath="$PROJECT_DIR$/src/chapter2/BankStatementParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter2/MainApplication.java" afterDir="false" />
+    <list default="true" id="590bcd40-d806-4dea-b247-4b73f85dd2f4" name="Changes" comment="make MainApplication">
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter2/src/main/java/BankGroupParse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter2/src/main/java/GroupBank.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter2/src/test/java/BankStatementCSVParserTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter2/BankStatementAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter2/BankStatementAnalyzer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter2/BankStatementCSVParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter2/BankStatementCSVParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/RWSD.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RWSD.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter2/BankStatementAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter2/src/main/java/BankStatementAnalyzer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter2/BankStatementCSVParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter2/src/main/java/BankStatementCSVParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter2/BankStatementParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter2/src/main/java/BankStatementParser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter2/BankStatementProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter2/src/main/java/BankStatementProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter2/BankTransaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter2/src/main/java/BankTransaction.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter2/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter2/src/main/java/MainApplication.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,8 +27,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -37,8 +45,13 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0"
@@ -46,11 +59,11 @@
 }]]></component>
   <component name="RunManager" selected="Application.MainApplication">
     <configuration name="BankStatementAnalyzer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter2.BankStatementAnalyzer" />
+      <option name="MAIN_CLASS_NAME" value="chapter2.src.main.java.BankStatementAnalyzer" />
       <module name="RWSD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter2.*" />
+          <option name="PATTERN" value="chapter2.src.main.java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -63,7 +76,7 @@
       <module name="RWSD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter2.*" />
+          <option name="PATTERN" value="chapter2.src.main.java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -72,11 +85,11 @@
       </method>
     </configuration>
     <configuration name="MainApplication" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="chapter2.MainApplication" />
+      <option name="MAIN_CLASS_NAME" value="chapter2.src.main.java.MainApplication" />
       <module name="RWSD" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="chapter2.*" />
+          <option name="PATTERN" value="chapter2.src.main.java.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -84,9 +97,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="BankStatementCSVParserTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="RWSD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter2.src.test.java.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="chapter2.src.test.java" />
+      <option name="MAIN_CLASS_NAME" value="chapter2.src.test.java.BankStatementCSVParserTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
         <item itemvalue="Application.MainApplication" />
+        <item itemvalue="JUnit.BankStatementCSVParserTest" />
         <item itemvalue="Application.BankStatementAnalyzer" />
         <item itemvalue="Application.BankTranscationAnalyzerSimple" />
       </list>
@@ -122,14 +151,22 @@
       <option name="project" value="LOCAL" />
       <updated>1685535245658</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="make MainApplication">
+      <created>1685536722957</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685536722957</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2-4" />
     <MESSAGE value="2-7" />
     <MESSAGE value="2-8" />
-    <option name="LAST_COMMIT_MESSAGE" value="2-8" />
+    <MESSAGE value="make MainApplication" />
+    <option name="LAST_COMMIT_MESSAGE" value="make MainApplication" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
