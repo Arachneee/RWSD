@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="590bcd40-d806-4dea-b247-4b73f85dd2f4" name="Changes" comment="2-4">
-      <change afterPath="$PROJECT_DIR$/src/chapter2/BankStatementProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter2/BankTransaction.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter2/BankStatementCSVParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter2/BankStatementCSVParser.java" afterDir="false" />
+    <list default="true" id="590bcd40-d806-4dea-b247-4b73f85dd2f4" name="Changes" comment="2-7">
+      <change afterPath="$PROJECT_DIR$/src/chapter2/BankStatementAnalyzer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter2/BankStatementProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter2/BankStatementProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter2/BankTranscationAnalyzerSimple.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter2/Main.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,7 +43,20 @@
     "project.structure.side.proportion": "0.0"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.BankStatementAnalyzer">
+    <configuration name="BankStatementAnalyzer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="chapter2.BankStatementAnalyzer" />
+      <module name="RWSD" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="chapter2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BankTranscationAnalyzerSimple" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="chapter2.BankTranscationAnalyzerSimple" />
       <module name="RWSD" />
@@ -58,6 +72,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.BankStatementAnalyzer" />
         <item itemvalue="Application.BankTranscationAnalyzerSimple" />
       </list>
     </recent_temporary>
@@ -78,11 +93,29 @@
       <option name="project" value="LOCAL" />
       <updated>1685530681049</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="2-7">
+      <created>1685531982461</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1685531982461</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="2-4" />
-    <option name="LAST_COMMIT_MESSAGE" value="2-4" />
+    <MESSAGE value="2-7" />
+    <option name="LAST_COMMIT_MESSAGE" value="2-7" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.nio.file.NoSuchFileException" package="java.nio.file" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
