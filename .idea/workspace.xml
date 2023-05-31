@@ -4,20 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="590bcd40-d806-4dea-b247-4b73f85dd2f4" name="Changes" comment="make MainApplication">
-      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter2/src/main/java/BankGroupParse.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter2/src/main/java/GroupBank.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter2/src/test/java/BankStatementCSVParserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/RWSD.iml" beforeDir="false" afterPath="$PROJECT_DIR$/RWSD.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter2/BankStatementAnalyzer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter2/src/main/java/BankStatementAnalyzer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter2/BankStatementCSVParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter2/src/main/java/BankStatementCSVParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter2/BankStatementParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter2/src/main/java/BankStatementParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter2/BankStatementProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter2/src/main/java/BankStatementProcessor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter2/BankTransaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter2/src/main/java/BankTransaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/chapter2/MainApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter2/src/main/java/MainApplication.java" afterDir="false" />
+    <list default="true" id="590bcd40-d806-4dea-b247-4b73f85dd2f4" name="Changes" comment="make histogram">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +22,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2QYQ1JjvOKztlBAKvhCkg3uh84A" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -158,7 +149,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685536722957</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="make histogram">
+      <created>1685547210183</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1685547210183</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -166,7 +164,8 @@
     <MESSAGE value="2-7" />
     <MESSAGE value="2-8" />
     <MESSAGE value="make MainApplication" />
-    <option name="LAST_COMMIT_MESSAGE" value="make MainApplication" />
+    <MESSAGE value="make histogram" />
+    <option name="LAST_COMMIT_MESSAGE" value="make histogram" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
