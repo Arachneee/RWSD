@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="590bcd40-d806-4dea-b247-4b73f85dd2f4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/chapter2/BankStatementCSVParser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter2/BankTranscationAnalyzerSimple.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/chapter2/src/main/resources/test1.csv" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+    <list default="true" id="590bcd40-d806-4dea-b247-4b73f85dd2f4" name="Changes" comment="2-4">
+      <change afterPath="$PROJECT_DIR$/src/chapter2/BankStatementProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter2/BankTransaction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/chapter2/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/chapter2/BankStatementCSVParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/chapter2/BankStatementCSVParser.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,6 +71,18 @@
       <option name="presentableId" value="Default" />
       <updated>1685527824363</updated>
     </task>
+    <task id="LOCAL-00001" summary="2-4">
+      <created>1685530681049</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1685530681049</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="2-4" />
+    <option name="LAST_COMMIT_MESSAGE" value="2-4" />
   </component>
 </project>
