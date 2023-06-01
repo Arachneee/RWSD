@@ -1,4 +1,4 @@
-package chapter2.src.main.java;
+package main.java;
 
 import java.io.IOException;
 

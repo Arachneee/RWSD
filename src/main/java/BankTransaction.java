@@ -1,6 +1,5 @@
-package chapter2.src.main.java;
+package main.java;
 
-import java.time.DateTimeException;
 import java.time.LocalDate;
 import java.util.Objects;
 

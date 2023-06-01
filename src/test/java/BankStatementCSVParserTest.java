@@ -1,8 +1,8 @@
-package chapter2.src.test.java;
+package test.java;
 
-import chapter2.src.main.java.BankStatementCSVParser;
-import chapter2.src.main.java.BankStatementParser;
-import chapter2.src.main.java.BankTransaction;
+import main.java.BankStatementCSVParser;
+import main.java.BankStatementParser;
+import main.java.BankTransaction;
 import org.junit.Assert;
 import org.junit.Test;
 

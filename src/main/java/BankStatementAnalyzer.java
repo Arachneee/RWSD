@@ -1,4 +1,4 @@
-package chapter2.src.main.java;
+package main.java;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -12,7 +12,7 @@ import java.util.stream.Collectors;
 
 public class BankStatementAnalyzer
 {
-    private static final String RESOURCES = "src\\chapter2\\src\\main\\resources\\";
+    private static final String RESOURCES = "src\\main\\resources\\";
     private static final BankStatementCSVParser bankStatementParser = new BankStatementCSVParser();
 
     public static void analyze(final String fileName, final BankStatementParser bankStatementParser) throws IOException {

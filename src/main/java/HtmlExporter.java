@@ -1,4 +1,4 @@
-package chapter2.src.main.java;
+package main.java;
 
 public class HtmlExporter implements Exporter
 {
