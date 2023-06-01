@@ -1,5 +1,6 @@
 package chapter2.src.main.java;
 
+import java.time.DateTimeException;
 import java.time.LocalDate;
 import java.util.Objects;
 
@@ -52,5 +53,6 @@ public class BankTransaction
     {
         return Objects.hash(date, amount, description);
     }
+
 
 }
