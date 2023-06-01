@@ -69,4 +69,8 @@ public class BankStatementProcessor
         }
         return maxTransaction;
     }
+    public List<BankTransaction> findTransactions (final BankTransactionFilter bankTransactionFilter)
+    {
+    }
+
 }
