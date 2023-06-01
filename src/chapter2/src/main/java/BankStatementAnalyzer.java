@@ -7,6 +7,7 @@ import java.nio.file.Paths;
 import java.time.LocalDate;
 import java.time.Month;
 import java.util.List;
+import java.util.stream.Collectors;
 
 
 public class BankStatementAnalyzer
@@ -37,6 +38,9 @@ public class BankStatementAnalyzer
                 = bankStatementProcessor.findTransactions(bankTransaction ->
                                                             bankTransaction.getDate().getMonth() == Month.FEBRUARY
                                                             && bankTransaction.getAmount() >= 1_000);
+
+        final List<BankTransaction> transactions1 = bankTransactions.getBankTransactions().stream().filter(bankTransaction -> bankTransaction.getAmount() >= 1_000).collect(Collectors.toList());
+
 
     }
     private static void collectSummary(final BankStatementProcessor bankStatementProcessor,LocalDate from, LocalDate to)
